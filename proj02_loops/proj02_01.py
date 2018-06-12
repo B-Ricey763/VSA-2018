@@ -19,18 +19,24 @@
 #The sum of your numbers is: 21
 
 
-"""#Number adding thing
+#Number adding thing
 num = int(input("Enter a number to sum, or 0 to indicate you are finished:"))
 sum = 0
+summ = 0
 
 
 while num > 0:
     sum = sum + num
     num = int(input("Enter a number to sum, or 0 to indicate you are finished:"))
+    summ = summ + 1
 
-print("Your sum is " + str(sum))"""
 
-#R/P/S
+
+average = sum/summ
+
+print("Your average is " + str(average))
+
+""""#R/P/S
 answer = input("Would you like to play?")
 
 while answer == "Yes":
@@ -51,7 +57,7 @@ while answer == "Yes":
         print("Player 1 wins")
     else:
         print("It is a tie")
-    answer = input("Would you like to play again?")
+    answer = input("Would you like to play again?")"""
 
 
 
