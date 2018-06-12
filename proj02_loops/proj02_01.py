@@ -17,3 +17,50 @@
 # Enter a number to sum, or 0 to indicate you are finished: 10
 # Enter a number to sum, or 0 to indicate you are finished: 0
 #The sum of your numbers is: 21
+
+
+"""#Number adding thing
+num = int(input("Enter a number to sum, or 0 to indicate you are finished:"))
+sum = 0
+
+
+while num > 0:
+    sum = sum + num
+    num = int(input("Enter a number to sum, or 0 to indicate you are finished:"))
+
+print("Your sum is " + str(sum))"""
+
+#R/P/S
+answer = input("Would you like to play?")
+
+while answer == "Yes":
+    p1_input = input("Rock, paper, scissors")
+    p2_input = input("Rock, paper, scissors")
+
+    if p1_input == "rock" and p2_input == "paper":
+        print("Player 2 wins")
+    elif p1_input == "rock" and p2_input == "scissors":
+        print("Player 1 wins")
+    elif p1_input == "paper" and p2_input == "rock":
+        print("Player 1 wins")
+    elif p1_input == "paper" and p2_input == "scissors":
+        print("Player 2 wins")
+    elif p1_input == "scissors" and p2_input == "rock":
+        print("Player 2 wins")
+    elif p1_input == "scissors" and p2_input == "Paper":
+        print("Player 1 wins")
+    else:
+        print("It is a tie")
+    answer = input("Would you like to play again?")
+
+
+
+
+
+
+
+
+
+
+
+
